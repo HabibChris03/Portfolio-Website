@@ -78,7 +78,13 @@ export function Header() {
           <Link to="/contact" className="btn btn--primary btn--sm hide-mobile">
             {t('nav.talk')}
           </Link>
-          <button type="button" className="icon-btn show-mobile" onClick={() => setOpen(!open)} aria-label="Menu">
+          <button
+            type="button"
+            className={`icon-btn show-mobile ${open ? 'is-active' : ''}`}
+            onClick={() => setOpen(!open)}
+            aria-label="Menu"
+            aria-expanded={open}
+          >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>

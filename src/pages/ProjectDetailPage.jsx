@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { PageWrapper } from '../components/ui/PageWrapper';
 import { Seo } from '../components/ui/Seo';
 import { useLanguage } from '../context/LanguageContext';
@@ -49,9 +49,17 @@ export function ProjectDetailPage() {
           </ul>
         </div>
 
-        <Link to="/contact" className="btn btn--primary">
-          {t('portfolio.cta')}
-        </Link>
+        <div className="case-study__actions">
+          {project.links?.demo && (
+            <a href={project.links.demo} className="btn btn--primary" target="_blank" rel="noopener noreferrer">
+              <ExternalLink size={16} />
+              {t('portfolio.liveSite')}
+            </a>
+          )}
+          <Link to="/contact" className="btn btn--secondary">
+            {t('portfolio.cta')}
+          </Link>
+        </div>
       </section>
     </PageWrapper>
   );

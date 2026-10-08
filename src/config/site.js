@@ -5,7 +5,7 @@ export const SITE = {
   tagline: 'Software Engineer · Full-Stack · Security',
   email: 'banyuyhabibosti@gmail.com',
   whatsapp: '237000000000', // Replace with your number (country code, no +)
-  cvPath: '/Habib-Chris-Resume.pdf',
+  cvPath: '/cv/Banyuy_Habib_CV_ATS_Optimized.docx',
   apiBase: import.meta.env.VITE_API_URL || 'https://portfolio-backend-eight-mocha.vercel.app',
   social: {
     github: 'https://github.com',

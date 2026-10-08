@@ -20,10 +20,6 @@ export function HomePage() {
       />
       <section className="hero">
         <div className="hero__content">
-          <p className="status-pill">
-            <span className="status-pill__dot" />
-            {t('home.available')}
-          </p>
           <h1 className="hero__title">{t('home.headline')}</h1>
           <p className="hero__lead">{t('home.subhead')}</p>
           <div className="hero__actions">

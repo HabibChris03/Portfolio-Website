@@ -188,7 +188,7 @@ export const projects = [
     'Connected the applications to a FastAPI backend hosted on a VPS',
   ],
   role: 'Full-stack developer — mobile apps, backend integration, UI/UX, API connection, deployment',
-  links: { demo: null, repo: null },
+  links: { demo: 'https://trimly237.com', repo: null },
 },
 
 {
@@ -245,7 +245,7 @@ export const projects = [
     'Designed a simple mobile-first interface for managing daily activities',
   ],
   role: 'Full-stack developer — mobile frontend, backend API, database integration',
-  links: { demo: null, repo: null },
+  links: { demo: null, repo: 'https://github.com/HabibChris03/to-do-list' },
 },
 
 {
@@ -263,7 +263,7 @@ export const projects = [
     'Designed the website for recruiters, clients, startups, and technology companies',
   ],
   role: 'Designer & developer — branding, UI/UX, frontend development, deployment',
-  links: { demo: null, repo: null },
+  links: { demo: 'https://habibchris.online', repo: null },
 },
 
 {
@@ -281,7 +281,7 @@ export const projects = [
     'Implemented centralized management for application and database operations',
   ],
   role: 'Full-stack developer — dashboard architecture, API integration, security, deployment',
-  links: { demo: null, repo: null },
+  links: { demo: 'https://non-accessible.com', repo: null },
 },
 {
   slug: 'passwordguardian',
@@ -307,7 +307,7 @@ export const projects = [
   role: 'Full-stack developer — application design, security logic, frontend development, backend integration',
   links: {
     demo: null,
-    repo: null,
+    repo: 'https://github.com/HabibChris03/PasswordGuardian',
   },
 },
 ];

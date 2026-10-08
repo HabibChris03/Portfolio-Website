@@ -2,6 +2,7 @@ import { AnimatePresence } from 'framer-motion';
 import { Outlet, useLocation } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { MobileBottomNav } from './MobileBottomNav';
 import { WhatsAppButton } from './WhatsAppButton';
 
 export function AppShell() {
@@ -19,6 +20,7 @@ export function AppShell() {
         </div>
       </main>
       <Footer />
+      <MobileBottomNav />
       <WhatsAppButton />
     </div>
   );

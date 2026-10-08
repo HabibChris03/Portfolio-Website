@@ -4,7 +4,7 @@ export const SITE = {
   title: 'Software Engineer · Full-Stack · Cybersecurity',
   email: 'banyuyhabibosti@gmail.com',
   location: 'Available for remote & hybrid roles',
-  cvPath: '/cv/habib-chris-cv.pdf',
+  cvPath: '/cv/Banyuy_Habib_CV_ATS_Optimized.docx',
   apiBase: import.meta.env.VITE_API_BASE || 'https://portfolio-backend-eight-mocha.vercel.app',
   whatsapp:  '+237 673492314',
   social: {

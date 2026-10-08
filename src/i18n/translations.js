@@ -18,7 +18,7 @@ export const translations = {
       available: 'Open to opportunities',
       headline: 'Software that ships. Systems you can trust.',
       subhead:
-        'I’m Habib Chris — full-stack engineer and cybersecurity practitioner. I build web and mobile products, tighten backends, and treat security as part of delivery—not an afterthought.',
+        'I’m Habib Chris. Full-stack engineer and cybersecurity practitioner. I build web and mobile products, tighten backends, and treat security as part of delivery not an afterthought.',
       ctaWork: 'View case studies',
       ctaAbout: 'About me',
       ctaCv: 'Download résumé',
@@ -79,6 +79,7 @@ export const translations = {
       stack: 'Stack',
       role: 'Role',
       back: 'Back to portfolio',
+      liveSite: 'Visit live website',
       cta: 'Discuss a similar project',
     },
     experience: {
@@ -208,7 +209,7 @@ export const translations = {
       available: 'Ouvert aux opportunités',
       headline: 'Des produits livrés. Des systèmes fiables.',
       subhead:
-        'Je suis Habib Chris — ingénieur full-stack et praticien cybersécurité. Je conçois des applications web et mobile, renforce les backends et intègre la sécurité dès la conception.',
+        'Je suis Habib Chris. Ingénieur full-stack et praticien cybersécurité. Je conçois des applications web et mobile, renforce les backends et intègre la sécurité dès la conception.',
       ctaWork: 'Voir les études de cas',
       ctaAbout: 'À propos',
       ctaCv: 'Télécharger le CV',
@@ -269,6 +270,7 @@ export const translations = {
       stack: 'Stack',
       role: 'Rôle',
       back: 'Retour au portfolio',
+      liveSite: 'Voir le site en ligne',
       cta: 'Discuter d’un projet similaire',
     },
     experience: {
